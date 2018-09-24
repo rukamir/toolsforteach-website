@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
-languageCode = "en-AU"
-title = "My Awesome Title"
+baseURL = "https://toolsforteach.com/"
+languageCode = "en-US"
+title = "ToolsForTeach.com: Applications to help teachers"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Jimmy Roland"
+  description = "Applications for teachers"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "ToolsForTeach"
+  description = "Applications to help teachers with their day to day."
 
 # Navigation section
 [params.nav]
@@ -42,66 +42,46 @@ title = "My Awesome Title"
 
   [[params.mission.item]]
     weight = 1
-    name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "education"
+    title = "Education"
+    subtitle = "Help teachers help the future."
+    description = "Teachers jobs are not completed in just 8 hours a day. They spend countless hours trying to complete everything necessary to get ready for the next day of teaching. Hours are lost with families of teachers and our goal is to give them that time back by using technology to help them get their job done quicker."
 
   [[params.mission.item]]
     weight = 2
-    name = "analysis"
-    title = "Resources"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "developers"
+    title = "Developers"
+    subtitle = "Technology Drives Change."
+    description = "Web developers are encouraged to contribute to the project. The open source code can be found on [GitHub](https://github.com/rukamir/teach-apps). Have an idea? Create a pull request today!"
 
   [[params.mission.item]]
     weight = 3
-    name = "strategy"
-    title = "Strategy"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "together"
+    title = "Together"
+    subtitle = "Technology to enable better teachers."
+    description = "Developers can give teachers the technology they need. Creating higher quality software for teachers is the goal."
 
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "This is our collection of app for teachers to use to make their lives run a little more smoothly."
 
   [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-edit"
+    title = "Grade Assistant"
+    description = "[Need help grading many tests from student? Input the answers to this app and have them read back to you out loud!](https://toolsforteach.com/assistant)"
 
   [[params.services.item]]
     icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Grader"
+    description = "[Easy Grader style app that you can never lose!](https://toolsforteach.com/assistant)"
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
@@ -147,41 +127,16 @@ title = "My Awesome Title"
 [params.team]
   enable = true
   title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "If you have comments, concerns, or ideas on how we can improve ToolsForTeach, please reach out to one of the main contributers to see how we can continue helping educators."
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
-
-  [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+    name = "Jimmy Roland"
+    position = "Everything"
+    description = "The main creator of ToolsForTeach."
+    img = "images/jimmy-headshot.jpg"
+    twitter = "https://twitter.com/IncludeJimmy"
+    github = "https://github.com/rukamir"
+    linkedin = "https://www.linkedin.com/in/jimmyroland/"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -196,24 +151,20 @@ title = "My Awesome Title"
 
 # Contact section
 [params.contact]
-  enable = true
+  enable = false
   title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  name_placeholder = "Your name"
-  email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
-  message_placeholder = "Please enter a message."
-  button_text = "Submit"
+  message = "Send an email to jimmylroland@gmail.com for any concerns or ideas. Developers who want to contribute can also send an email or reach out to Jimmy on [GitHub](https://github.com/rukamir)."
+#  name_placeholder = "Your name"
+#  email_placeholder = "Your email"
+#  email_disclaimer = "We'll never share your email with anyone else."
+#  message_placeholder = "Please enter a message."
+#  button_text = "Submit"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "#"
-  twitter = "#"
-  facebook = "#"
-  vine = "#"
-  linkedin = "#"
-  instagram = "#"
+  github = "https://github.com/rukamir/teach-apps"
+  linkedin = "https://www.linkedin.com/in/jimmyroland/"
   
