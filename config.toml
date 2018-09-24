@@ -72,12 +72,12 @@ title = "ToolsForTeach.com: Applications to help teachers"
   [[params.services.item]]
     icon = "icon-edit"
     title = "Grade Assistant"
-    description = "[Need help grading many tests from student? Input the answers to this app and have them read back to you out loud!](https://toolsforteach.com/assistant)"
+    description = "[Need help grading many tests from student? Input the answers to this app and have them read back to you out loud!](https://apps.toolsforteach.com/assistant)"
 
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Grader"
-    description = "[Easy Grader style app that you can never lose!](https://toolsforteach.com/assistant)"
+    description = "[Easy Grader style app that you can never lose!](https://apps.toolsforteach.com/assistant)"
 
 # Work section
 [params.work]
