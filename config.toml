@@ -77,7 +77,7 @@ title = "ToolsForTeach.com: Applications to help teachers"
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Grader"
-    description = "[Easy Grader style app that you can never lose!](https://apps.toolsforteach.com/assistant)"
+    description = "[Easy Grader style app that you can never lose!](https://apps.toolsforteach.com/grader)"
 
 # Work section
 [params.work]
